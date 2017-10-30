@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VialerSIPLibVideo_Example' do
+  pod 'VialerSIPLibVideo', :path => '../'
+
+  target 'VialerSIPLibVideo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
