@@ -1,0 +1,16 @@
+PODS:
+  - VialerSIPLibVideo (0.1.0)
+
+DEPENDENCIES:
+  - VialerSIPLibVideo (from `../`)
+
+EXTERNAL SOURCES:
+  VialerSIPLibVideo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VialerSIPLibVideo: b5df89eaa4bbe796da68764dac5fcdf66eaddaac
+
+PODFILE CHECKSUM: c4b4eab47d4fabdb95e04980f56629fc84ee0d00
+
+COCOAPODS: 1.1.1

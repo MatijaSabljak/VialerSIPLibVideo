@@ -1,0 +1,22 @@
+{
+  "name": "VialerSIPLibVideo",
+  "version": "0.1.0",
+  "summary": "A short description of VialerSIPLibVideo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Matija/VialerSIPLibVideo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Matija": "matija.sabljak@globaldizajn.hr"
+  },
+  "source": {
+    "git": "https://github.com/Matija/VialerSIPLibVideo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VialerSIPLibVideo/Classes/**/*"
+}
