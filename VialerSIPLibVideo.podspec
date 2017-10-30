@@ -9,34 +9,23 @@
 Pod::Spec.new do |s|
   s.name             = 'VialerSIPLibVideo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VialerSIPLibVideo.'
+  s.summary          = 'pjsip library with Video support'
+  s.description      = "Swift wrapper around PJSIP with video support"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Matija/VialerSIPLibVideo'
+  s.homepage         = 'https://github.com/MatijaSabljak/VialerSIPLibVideo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Matija' => 'matija.sabljak@globaldizajn.hr' }
-  s.source           = { :git => 'https://github.com/Matija/VialerSIPLibVideo.git', :tag => s.version.to_s }
+  s.author           = { 'MatijaSabljak' => 'matija.sabljak@globaldizajn.hr' }
+  s.source           = { :git => 'https://github.com/MatijaSabljak/VialerSIPLibVideo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'VialerSIPLibVideo/Classes/**/*'
+    s.source_files  = "Pod/Classes/**/*.{h,m}"
+
   
-  # s.resource_bundles = {
-  #   'VialerSIPLibVideo' => ['VialerSIPLibVideo/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Vialer-pjsip-iOS'
+   s.dependency 'CocoaLumberjack'
+   s.dependency 'Reachability'
 end

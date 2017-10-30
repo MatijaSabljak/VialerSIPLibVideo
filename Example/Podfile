@@ -1,5 +1,6 @@
 use_frameworks!
 
+
 target 'VialerSIPLibVideo_Example' do
   pod 'VialerSIPLibVideo', :path => '../'
 

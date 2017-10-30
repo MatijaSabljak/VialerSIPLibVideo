@@ -1,0 +1,8 @@
+
+ -> =[31m -> [0m=
+    - ERROR | spec: The specification defined in `=` could not be loaded.
+
+[31m[!] No podspec exists at path `=`.[0m
+
+[31m[!] = did not pass validation, due to 1 error.
+You can use the `--no-clean` option to inspect any issue.[0m
