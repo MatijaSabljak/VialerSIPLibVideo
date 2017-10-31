@@ -82,6 +82,7 @@
 		CED78E4C5805EE200D7F93FD15ED5CE3 /* Pods-VialerSIPLibVideo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VialerSIPLibVideo_Tests-resources.sh"; sourceTree = "<group>"; };
 		CF54A515B3751FDF7A50DA73E98659B6 /* VialerSIPLibVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VialerSIPLibVideo.modulemap; sourceTree = "<group>"; };
 		CFB7B63422932DDE441D5EEDEABAFBA8 /* Pods-VialerSIPLibVideo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VialerSIPLibVideo_Example-resources.sh"; sourceTree = "<group>"; };
+		D4243B361FA75EBF00994F3E /* disconnected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disconnected.wav; sourceTree = "<group>"; };
 		D4603BF21FA7466300202D79 /* VSLEndpoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSLEndpoint.m; sourceTree = "<group>"; };
 		D4603BF31FA7466300202D79 /* VialerSIPLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VialerSIPLib.h; sourceTree = "<group>"; };
 		D4603BF41FA7466300202D79 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
@@ -246,6 +247,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D4243B331FA75E9B00994F3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4243B341FA75EAC00994F3E /* Pod */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4243B341FA75EAC00994F3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4243B351FA75EB100994F3E /* Resources */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D4243B351FA75EB100994F3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4243B361FA75EBF00994F3E /* disconnected.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D4603C261FA7468C00202D79 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +351,7 @@
 		ECE0EE65376053EAD7A5398F6BE6EFC7 /* VialerSIPLibVideo */ = {
 			isa = PBXGroup;
 			children = (
+				D4243B331FA75E9B00994F3E /* Resources */,
 				06820016C57629CFE9411D76F9F5F4E3 /* Support Files */,
 				5565523B96BDE717C7D6A541A0749F3D /* Pod */,
 			);
